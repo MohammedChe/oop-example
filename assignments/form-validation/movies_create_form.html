@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Movies - Create Form</title>
+        <style>
+            .error { color: red; }
+        </style>
+    </head>
+    <body>
+        <h2>Create Movie Form</h2>
+        <form>
+            <p>
+                Name: 
+                <input type="text" name="title" value="">
+                <span class="error"><span>
+            </p>
+            <p>
+                Genre:
+                <select name="genre">
+                    <option value="">Please choose a genre...</option>
+                    <option value="Action">Action</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Crime">Crime</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Family">Family</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Mystery">Mystery</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Science Fiction">Science Fiction</option>
+                    <option value="Triller">Triller</option>
+                </select>
+                <span class="error"><span>
+            </p>
+            <p>
+                Year: 
+                <input type="text" name="year" value="">
+                <span class="error"><span>
+            </p>
+            <p>
+                Box Office (millions): 
+                <input type="text" name="box_office" value="">
+                <span class="error"><span>
+            </p>
+            <p>
+                Director:
+                <select name="director_id">
+                    <option value="">Please choose a director...</option>
+                    <option value="1">Steven Spielberg</option>
+                    <option value="2">David Fincher</option>
+                    <option value="3">Christopher Nolan</option>
+                    <option value="4">Quentin Tarantino</option>
+                    <option value="5">Peter Jackson</option>
+                    <option value="6">Martin Scorsese</option>
+                    <option value="7">Tim Burton</option>
+                    <option value="8">Robert Zemeckis</option>
+                    <option value="9">Ridley Scott</option>
+                    <option value="10">Bryan Singer</option>
+                    <option value="11">Chris Columbus</option>
+                </select>
+                <span class="error"><span>
+            </p>
+            <button type="submit">Store</button>
+        </form>
+    </body>
+</html>
