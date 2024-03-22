@@ -36,7 +36,7 @@ moviesHTML.forEach((movieDiv) => {
 main.addEventListener('click', function (event) {
     let selectedMovieDiv = event.target.closest('.movie');
 
-    if (selectedMovieDiv) {
+    if (selectedMovieDiv !== null) {
         console.log(selectedMovieDiv);
     }
 });
